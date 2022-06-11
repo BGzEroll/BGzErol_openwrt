@@ -18,6 +18,6 @@ sed -i 's/KERNEL_TESTING_PATCHVER:=5.15/KERNEL_TESTING_PATCHVER:=5.10/g' ./targe
 # sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # Add a feed source
-sed -i '$a src-git passwall_packages https://github.com/xiaorouji/openwrt-passwall;packages' feeds.conf.default
-sed -i '$a src-git passwall_luci https://github.com/xiaorouji/openwrt-passwall;luci' feeds.conf.default
+sed -i '$a src-git passwall_packages https://github.com/BGzEroll/openwrt-passwall.git;packages' feeds.conf.default
+sed -i '$a src-git passwall_luci https://github.com/BGzEroll/openwrt-passwall.git;luci' feeds.conf.default
 sed -i '$a src-git helloworld https://github.com/fw876/helloworld.git' feeds.conf.default
