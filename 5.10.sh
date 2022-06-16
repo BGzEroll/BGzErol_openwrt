@@ -20,4 +20,4 @@ sed -i 's/KERNEL_PATCHVER:=5.4/KERNEL_PATCHVER:=5.10/g' ./target/linux/x86/Makef
 # Add a feed source
 sed -i '$a src-git passwall_packages https://github.com/BGzEroll/openwrt-passwall.git;packages' feeds.conf.default
 sed -i '$a src-git passwall_luci https://github.com/BGzEroll/openwrt-passwall.git;luci' feeds.conf.default
-sed -i '$a src-git helloworld https://github.com/fw876/helloworld.git' feeds.conf.default
+sed -i '$a src-git helloworld https://github.com/BGzEroll/helloworld.git' feeds.conf.default
