@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: lede-5.10
+name: ipq
 
 on:
   repository_dispatch:
@@ -23,7 +23,7 @@ env:
   REPO_URL: https://github.com/coolsnowwolf/lede
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
-  CONFIG_FILE: 5.10.config
+  CONFIG_FILE: ipq.config
   DIY_P1_SH: 5.10.sh
   DIY_P2_SH: mainrouter.sh
   UPLOAD_BIN_DIR: false
