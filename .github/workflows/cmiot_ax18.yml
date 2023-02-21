@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: ipq
+name: cmiot_ax18
 
 on:
   repository_dispatch:
