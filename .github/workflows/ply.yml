@@ -23,8 +23,8 @@ env:
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: ply.config
-  DIY_P1_SH: ply.sh
-  DIY_P2_SH: mainrouter_c.sh
+  DIY_P1_SH: x86_64.sh
+  DIY_P2_SH: ply.sh
   UPLOAD_BIN_DIR: false
   UPLOAD_FIRMWARE: true
   UPLOAD_COWTRANSFER: false
