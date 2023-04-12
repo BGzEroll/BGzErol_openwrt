@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: lede-x86_64
+name: ply
 
 on:
   repository_dispatch:
