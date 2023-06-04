@@ -1,0 +1,4 @@
+config adguardhome config
+	option enabled '1'
+	# Where to store persistent data by AdGuard Home
+	option workdir /var/adguardhome
