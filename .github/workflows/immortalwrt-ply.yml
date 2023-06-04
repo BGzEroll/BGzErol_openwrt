@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: ply
+name: immortalwrt-ply
 
 on:
   repository_dispatch:
@@ -20,9 +20,9 @@ on:
         default: 'false'
 
 env:
-  REPO_URL: https://github.com/coolsnowwolf/lede
+  REPO_URL: https://github.com/immortalwrt/immortalwrt
   REPO_BRANCH: master
-  FEEDS_CONF: feeds.conf.default
+  FEEDS_CONF: feeds.conf.immortalwrt
   CONFIG_FILE: ply.config
   DIY_P1_SH: x86_64.sh
   DIY_P2_SH: ply.sh
