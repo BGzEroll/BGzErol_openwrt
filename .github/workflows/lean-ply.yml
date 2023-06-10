@@ -20,12 +20,12 @@ on:
         default: 'false'
 
 env:
-  REPO_URL: https://github.com/immortalwrt/immortalwrt
+  REPO_URL: https://github.com/coolsnowwolf/lede
   REPO_BRANCH: master
-  FEEDS_CONF: feeds.conf.immortalwrt
-  CONFIG_FILE: ply.config
-  DIY_P1_SH: x86_64.sh
-  DIY_P2_SH: ply.sh
+  FEEDS_CONF: feeds.conf.lean
+  CONFIG_FILE: lean.config
+  DIY_P1_SH: expackages.sh
+  DIY_P2_SH: mainrouter_c.sh
   UPLOAD_BIN_DIR: false
   UPLOAD_FIRMWARE: true
   UPLOAD_COWTRANSFER: false
