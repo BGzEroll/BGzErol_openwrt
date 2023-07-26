@@ -20,8 +20,8 @@ on:
         default: 'false'
 
 env:
-  REPO_URL: https://github.com/BGzEroll/immortalwrt-21.02.6.git
-  REPO_BRANCH: main
+  REPO_URL: https://github.com/immortalwrt/immortalwrt
+  REPO_BRANCH: openwrt-21.02
   FEEDS_CONF: feeds.conf.immortalwrt
   CONFIG_FILE: immortalwrt.config
   DIY_P1_SH: expackages.sh
