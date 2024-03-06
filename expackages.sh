@@ -19,4 +19,3 @@
 sed -i '$a src-git passwall_packages https://github.com/xiaorouji/openwrt-passwall-packages.git' feeds.conf.default
 sed -i '$a src-git passwall_luci https://github.com/xiaorouji/openwrt-passwall.git' feeds.conf.default
 #sed -i '$a src-git helloworld https://github.com/fw876/helloworld.git' feeds.conf.default
-sed -i '$a src-git openclash_luci https://github.com/vernesong/OpenClash.git' feeds.conf.default
