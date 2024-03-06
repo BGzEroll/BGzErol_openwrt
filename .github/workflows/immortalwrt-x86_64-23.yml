@@ -21,7 +21,7 @@ on:
 
 env:
   REPO_URL: https://github.com/immortalwrt/immortalwrt
-  REPO_BRANCH: v23.05.1
+  REPO_BRANCH: openwrt-23.05
   FEEDS_CONF: feeds.conf.immortalwrt-23
   CONFIG_FILE: immortalwrt-23.config
   DIY_P1_SH: expackages.sh
