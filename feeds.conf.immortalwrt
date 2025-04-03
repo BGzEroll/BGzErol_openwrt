@@ -1,5 +1,0 @@
-src-git-full packages https://github.com/BGzEroll/packages.git;openwrt-21.02
-src-git-full luci https://github.com/BGzEroll/luci.git;openwrt-21.02
-src-git-full routing https://github.com/BGzEroll/openwrt-routing.git;openwrt-21.02
-src-git-full telephony https://github.com/BGzEroll/openwrt-telephony.git;openwrt-21.02
-src-git openclash_luci https://github.com/vernesong/OpenClash.git
